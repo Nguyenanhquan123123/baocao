@@ -1,2 +1,0 @@
-# baocao
-doancosonganh
