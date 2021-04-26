@@ -1,0 +1,136 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Template1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>WebSite Cập Nhập Giá Vàng Trong Ngày</title>
+<link rel="stylesheet" type="text/css" href="css/type.css">
+<link rel="stylesheet" type="text/css" href="font/css/font-awesome.css">
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+ 	<div id="logo">
+    	<div id="trai">
+ 
+        </div>
+        <div id="tim">
+       	  <form>
+
+       	  </form>
+        </div>
+   <div id="menu">
+    	
+         <a href="Trangchu.html">Trang Chủ</a>
+                  <a href="DangNhap.html">Đăng Nhập</a>
+         <ul>
+           	<li>
+                	<a href="https://bnews.vn/tag/gia-vang/75431/1.html">Tin tức</a>
+                  
+                 </li>
+             </ul>
+             <ul>
+                <li>
+             <a href="cachmuavang.html">Hướng Dẫn Mua Vàng</a>
+                </li>
+             </ul>
+                <a href="LienHe.html">Liên Hệ</a>  
+         
+</div>
+</style>
+<script language="javascript">
+function getInfo(){
+	  var H =document.Dangky;
+	  if(H.txtname.value ==""){
+		  document.getElementById("name-error").style.display ="block";
+		  document.getElementById("name-error").innerHTML ="Vui lòng nhập họ tên";
+		  H.txtname.focus();
+		  return false;
+	  }
+	  else
+	   document.getElementById("name-error").style.display="none";
+	   
+	    if(H.txtemail.value ==""){
+		  document.getElementById("email-error").style.display ="block";
+		  document.getElementById("email-error").innerHTML ="Vui lòng nhập email";
+		  H.txtemail.focus();
+		  return false;
+	  }
+	  else
+	   document.getElementById("email-error").style.display="none";
+	    
+		if(H.txtsodienthoai.value ==""){
+		  document.getElementById("sodienthoai-error").style.display ="block";
+		  document.getElementById("sodienthoai-error").innerHTML ="Vui lòng nhập số điện thoại";
+		  H.txtsodienthoai.focus();
+		  return false;
+	  }
+	  else
+	   document.getElementById("sodienthoai-error").style.display="none";
+	   
+	   if(H.txtsoluong.value ==""){
+		  document.getElementById("soluong-error").style.display ="block";
+		  document.getElementById("soluong-error").innerHTML ="Vui lòng nhập số lượng";
+		  H.txtsoluong.focus();
+		  return false;
+	  }
+	  else
+	   document.getElementById("soluong-error").style.display="none";
+	   
+	   if(H.mes.value ==""){
+		  document.getElementById("noidung-error").style.display ="block";
+		  document.getElementById("noidung-error").innerHTML ="Vui lòng nhập lời nhắn";
+		  H.mes.focus();
+		  return false;
+	  }
+	  else
+	   document.getElementById("noidung-error").style.display="none";
+	   
+	   return true;
+	   
+}
+</script>
+<link rel="stylesheet" type="text/css" href="CSS/CSS1.CSS"
+</head>
+
+<body>
+<div id="container">
+   
+     
+     
+     <div class="logo" id="nhap">
+    
+        <form action="#" name="Dangky" onSubmit="return getInfo();" method="post">
+          <input id="txtname" type="text" name="txtname" placeholder="Nhập họ tên" style="margin-top:6px;margin-left:21px;">
+           <p class="hide error" id="name-error"></p>
+          <input id="txtemail" type="email" name="txtemail" placeholder="Nhập email" style="margin-top:9px;margin-left:21px;">
+          <p class="hide error" id="email-error"></p>
+          <input id="txtsodienthoai" type="number" name="txtsodienthoai" placeholder="Nhập số điện thoại" style="margin-top:9px;margin-left:21px;">
+          <p class="hide error" id="sodienthoai-error"></p>
+          <input id="txtsoluong" type="number" name="txtsoluong" placeholder="Nhập số lượng" style="margin-top:9px;margin-left:21px;">
+          <p class="hide error" id="soluong-error"></p>
+          <p style="margin-left:15px;">Nội dung liên hệ</p>
+          <textarea name="mes" rows="5" cols="20" placeholder="Lời nhắn" style="margin-left:21px;width:368px"></textarea>
+          <p class="hide error" id="noidung-error"></p>
+          <br>
+          <input type="submit" name="btGui" value="Gửi thông tin" style="margin-left:21px;background-color:rgba(0,51,255,1)" >
+          </form>
+     </div>
+</div>
+
+<div id="trong"></div>
+ <div id="nd4">
+
+
+<p>Hotline: 039430*****</p>
+
+<p>E-mail: quanchip95@gmail.com</p>
+</div>
+    </div>
+    <script src="JavaScript/java.js"></script>
+         
+     
+</body>
+</html>
